@@ -7,7 +7,6 @@ public class Tetel extends Termek {
     private int db = 0;
     private Long eredetiAr;
     private Long kedvezmeny;
-    private String kedvTipus;
     private Akcio akcio;
 
     public Tetel(String nev, long ar, boolean megapack) {
@@ -37,10 +36,6 @@ public class Tetel extends Termek {
 
     public Long getKedvezmeny() {
         return kedvezmeny;
-    }
-
-    public String getKedvTipus() {
-        return kedvTipus;
     }
 
     public void setDb(int db) {
