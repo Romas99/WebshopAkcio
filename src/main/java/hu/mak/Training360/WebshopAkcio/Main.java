@@ -16,7 +16,6 @@ public class Main {
         bevlista.add(new Termek("gumikacsa",3000L,false));
         bevlista.add(new Termek("uborka",2800L,true));
         bevlista.add(new Termek("gesztenye",1000L,true));
-        bevlista.add(new Termek("uborka",2800L,true));
 
         for (Termek aktTermek : bevlista) {
             System.out.println(aktTermek.getNev() + " mennyisége: ");
